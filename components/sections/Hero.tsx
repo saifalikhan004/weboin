@@ -8,9 +8,8 @@ export default function Hero() {
   return (
     <section id="hero" className="relative w-full min-h-screen flex flex-col items-start justify-center p-8 overflow-hidden border-b border-gray-200 dark:border-zinc-800">
 
-      {/* Background white overlay behind the canvas */}
+      
       <div className="absolute inset-0 bg-white dark:bg-zinc-950 -z-20 pointer-events-none" />
-      {/* Background WebGL Shader Container (Full-bleed and Responsive) */}
       <div className="absolute inset-0 -z-10 w-full h-full overflow-hidden pointer-events-none">
         <ColorBends
           rotation={125}
@@ -30,7 +29,7 @@ export default function Hero() {
         />
       </div>
 
-      {/* Subtle light overlay to improve text contrast */}
+  
       <div className="absolute inset-0 bg-white/30 dark:bg-black/20 -z-5 pointer-events-none" />
 
       {/* Hero Content */}

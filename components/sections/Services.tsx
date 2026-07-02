@@ -11,7 +11,7 @@ export default function Services() {
       className="w-full min-h-screen flex flex-col items-center justify-center border-b border-gray-200 dark:border-zinc-800 p-8 text-center"
       style={{ background: 'linear-gradient(135deg, #3e87dbfb, #7588e8ff, #67bfff)' }}
     >
-      {/* Scroll Stack Container - constrained width on mobile, wider on desktop */}
+      {/* Scroll Stack Container*/}
       <div className="w-full max-w-2xl md:max-w-7xl mx-auto text-left">
         <div className="mb-12 font-poppins px-4 sm:px-10 md:px-20 pt-16">
           <span className="text-xs md:text-sm uppercase tracking-[0.2em] text-white/60 font-semibold mb-3 block">

@@ -17,7 +17,6 @@ export default function Navbar() {
           <Image src="/weboin_logo.webp" alt="Weboin Logo" width={120} height={40} className="h-8 w-auto object-contain" priority />
         </div>
         
-        {/* Desktop Navigation Links */}
         <nav className="hidden md:flex gap-6">
           
           <a href="#services" className="text-sm font-medium text-zinc-600 hover:text-black dark:text-zinc-400 dark:hover:text-white transition-colors font-poppins">Services</a>
@@ -35,7 +34,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Navigation Dropdown */}
       {isOpen && (
         <nav className="md:hidden border-t border-gray-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 flex flex-col p-4 gap-4 animate-in slide-in-from-top duration-200">
           
